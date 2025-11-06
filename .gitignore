@@ -1,0 +1,83 @@
+# ==================== #
+# PYTHON СЛУЖЕБНЫЕ ФАЙЛЫ
+# ==================== #
+
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы кэша
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Распределенные пакеты
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ==================== #
+# ВИРТУАЛЬНЫЕ ОКРУЖЕНИЯ
+# ==================== #
+
+# Виртуальные окружения Python
+.venv/
+venv/
+env/
+ENV/
+
+# ==================== #
+# СЕКРЕТЫ И КОНФИГУРАЦИЯ
+# ==================== #
+
+# Файлы с секретами (САМОЕ ВАЖНОЕ!)
+.env
+.env.local
+.env.production
+secrets.json
+config.ini
+
+# Токены и ключи
+*.key
+*.pem
+
+# ==================== #
+# IDE И РЕДАКТОРЫ
+# ==================== #
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm/IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ==================== #
+# СИСТЕМНЫЕ ФАЙЛЫ
+# ==================== #
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
